@@ -10,7 +10,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBq6IEB9SmjnR4RbCCQDPQY8B3skqfuM8E",
+    apiKey: "AIzaSyBq6IEB9SmjnR4RbCCQDPQY8B3skqfuM8E",
     authDomain: "chitchat-2c4fc.firebaseapp.com",
     projectId: "chitchat-2c4fc",
     storageBucket: "chitchat-2c4fc.appspot.com",
@@ -105,9 +105,9 @@ function ChatRoom() {
 
     <form onSubmit={sendMessage}>
 
-      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
+      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Please Say Hello!" />
 
-      <button type="submit" disabled={!formValue}>🕊️</button>
+      <button type="submit">🕊️</button>
 
     </form>
   </>)
