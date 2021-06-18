@@ -55,7 +55,11 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <p>Do not violate the community guidelines or you will be banned for life!</p>
+      <p>Fully dressed at the crack of dawn, weapons letting off
+I can hear them from the block, see them creeping through the fog
+Season's greetings, now feeding season can start, oh my God
+Look alive, lookin' like I live life on a crooked line
+Doin' fine, you want maximum stupid, I am the guy</p>
     </>
   )
 
